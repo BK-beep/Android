@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/firebase_logo_icon"
+        />
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@+id/image"
+        android:layout_marginVertical="5dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_style"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/emailtext"
+        android:layout_marginVertical="5dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_style"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/signinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordtext"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Sign in"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signinButton"
+        android:layout_marginHorizontal="140dp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Sign up"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@drawable/ic_bot"
+            android:title="@string/Chatbot" />
+        <item
+            android:id="@+id/nav_user_chat"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/user_chat" />
+        <item
+            android:id="@+id/nav_googleBooks"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/google_Books" />
+    </group>
+</menu>

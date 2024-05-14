@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProjetSynthese</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="Chatbot">chatbot</string>
+    <string name="user_chat">user chat</string>
+    <string name="google_Books">google Books</string>
+
+    <string name="button_text">search</string>
+    <string name="query_text">type query</string>
+    <string name="text_view">book info</string>
+    <string name="button_share">share</string>
+</resources>
